@@ -1,0 +1,3 @@
+[submodule "ansible-root/roles/epel"]
+	path = ansible-root/roles/epel
+	url = https://github.com/goozbach-ansible/role-epel.git

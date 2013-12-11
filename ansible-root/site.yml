@@ -3,3 +3,4 @@
   remote_user: root
   roles:
     - bootstrap
+    - { role: epel, epel_testing_enabled: 1 }

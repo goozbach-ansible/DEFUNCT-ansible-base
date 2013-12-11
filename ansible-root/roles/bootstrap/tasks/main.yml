@@ -1,0 +1,6 @@
+---
+- name: install libselinux-python
+  yum: pkg=libselinux-python state=installed
+
+- name: install ssh key
+  authorized_key: key="{{ dcarter_key }}" user=root
